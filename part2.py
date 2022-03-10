@@ -8,5 +8,5 @@ def solve_quadratic(a, b, c):
 
 
 solve_quadratic(1, 1, 0)     # should print: The roots of y = 1x^2 + 1x + 0 are 0.0 and -1.0
-     #solve_quadratic(2, 3, 1)     # should print: The roots of y = 2x^2 + 3x + 1 are -0.5 and -1.0
-     #solve_quadratic(1, 0, -1)    # should print: The roots of y = 1x^2 + 0x + -1 are 1.0 and -1.0
+solve_quadratic(2, 3, 1)     # should print: The roots of y = 2x^2 + 3x + 1 are -0.5 and -1.0
+solve_quadratic(1, 0, -1)    # should print: The roots of y = 1x^2 + 0x + -1 are 1.0 and -1.0
