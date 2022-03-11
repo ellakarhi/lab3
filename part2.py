@@ -5,7 +5,8 @@ def solve_quadratic(a, b, c):
   
   print("The roots of y = " + str(a) + "x**2 + " + str(b) + "x " + str(c) + " are " + str(x1) + " and " + str(x2) )
 
-
+  #an error occurs if b**2 is less than the value of 4ac because if it is the value under the square root will be negative and you can square root a negaive number.
+  #the error that occurs is a runtime error
 
 solve_quadratic(1, 1, 0)     # should print: The roots of y = 1x^2 + 1x + 0 are 0.0 and -1.0
 solve_quadratic(2, 3, 1)     # should print: The roots of y = 2x^2 + 3x + 1 are -0.5 and -1.0
